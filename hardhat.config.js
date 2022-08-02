@@ -25,7 +25,7 @@ module.exports = {
     defaultNetwork: "hardhat",
 
     networks: {
-        hardhat: {
+        localhost: {
             chainId: 31337,
             forking: {
                 url: MAINET_RPC_URL,
